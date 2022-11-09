@@ -11,7 +11,7 @@ public class test {
             @Override
             public void run() {
                 lock.lock(); // state :0 --> 1
-                lock.lock(); // state :1 --> 2
+//                lock.lock(); // state :1 --> 2
                 try {
                     drawMoney();
                 } finally {
