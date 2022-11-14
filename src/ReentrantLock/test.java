@@ -1,9 +1,11 @@
+package ReentrantLock;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class test {
 
     private static ReentrantLock lock = new ReentrantLock();
-//    private static MyLock lock = new MyLock();
+//    private static ReentrantLock.MyLock lock = new ReentrantLock.MyLock();
 
     public static void main(String[] args) {
 
